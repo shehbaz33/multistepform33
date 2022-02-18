@@ -1,23 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import Shipping from './components/Shipping';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className='text-red-500 text-3xl container mx-auto flex item-start mt-10'>Enter your details to proceed forward</h1>
+      <Shipping/>
     </div>
   );
 }
